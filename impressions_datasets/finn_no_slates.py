@@ -66,7 +66,6 @@ class DatasetFINNNoSlates:
     @cached_property
     def issue(self):
         with cast(NpzFile, np.load(file=self.file_data)) as dataset:
-
             arr_users = dataset["userId"]
             arr_click = dataset["click"]
             arr_slates = dataset["slate"]

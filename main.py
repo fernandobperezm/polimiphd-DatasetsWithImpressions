@@ -64,20 +64,20 @@ if __name__ == "__main__":
     )
 
     list_dataset_statistics = [
-        # (DatasetContentWiseImpressions, StatisticsContentWiseImpressions),
-        # (DatasetMINDLarge, StatisticsMINDLarge),
-        # (DatasetFINNNoSlates, StatisticsFINNNoSlates),
+        (DatasetContentWiseImpressions, StatisticsContentWiseImpressions),
+        (DatasetMINDLarge, StatisticsMINDLarge),
+        (DatasetFINNNoSlates, StatisticsFINNNoSlates),
         (DatasetRL4RS, StatisticsRL4RS),
-        # (DatasetYahooR6, StatisticsYahooR6A),
-        # (DatasetYahooR6, StatisticsYahooR6B),
-        # (DatasetSearchAds, StatisticsSearchAds),
-        # (DatasetPANDOR, StatisticsPANDOR),
-        # (DatasetAliCCP, StatisticsAliCCP),
-        # (DatasetAlimama, StatisticsAlimama),
-        # (DatasetComboFashion, StatisticsComboFashionCrossShops),
-        # (DatasetComboFashion, StatisticsComboFashionInShops),
-        # (DatasetKwaiFair, StatisticsKwaiFairSystem),
-        # (DatasetKwaiFair, StatisticsKwaiFairExperiment),
+        (DatasetYahooR6, StatisticsYahooR6A),
+        (DatasetYahooR6, StatisticsYahooR6B),
+        (DatasetSearchAds, StatisticsSearchAds),
+        (DatasetPANDOR, StatisticsPANDOR),
+        (DatasetAliCCP, StatisticsAliCCP),
+        (DatasetAlimama, StatisticsAlimama),
+        (DatasetComboFashion, StatisticsComboFashionCrossShops),
+        (DatasetComboFashion, StatisticsComboFashionInShops),
+        (DatasetKwaiFair, StatisticsKwaiFairSystem),
+        (DatasetKwaiFair, StatisticsKwaiFairExperiment),
     ]
     list_statistics: list[dict] = []
     try:

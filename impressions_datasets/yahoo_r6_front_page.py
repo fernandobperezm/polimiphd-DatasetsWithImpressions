@@ -57,7 +57,7 @@ def _read_candidate_items(
     )
 
 
-def read_file(filepath: str) -> pd.DataFrame:
+def read_file(filepath: str) -> dd.DataFrame:
     # This obtains the filepath without the .gz extension.
     dir_parquet_file = os.path.splitext(filepath)[0]
     if os.path.exists(dir_parquet_file) and len(os.listdir(dir_parquet_file)) > 0:

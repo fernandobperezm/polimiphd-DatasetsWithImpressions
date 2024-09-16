@@ -1,5 +1,4 @@
 import os
-import pdb
 from functools import cached_property
 
 import dask.dataframe as dd
@@ -110,7 +109,6 @@ class StatisticsRL4RS:
 
     @cached_property
     def num_users(self) -> int:
-
         df_users_a_rl: dd.Series = self.dataset.rl4rs_dataset_a_rl[
             "user_protrait"
         ].unique()
