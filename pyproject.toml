@@ -2,7 +2,7 @@
 name = "impressions-datasets"
 version = "0.1.0"
 description = ""
-authors = ["Fernando B. PEREZ MAURERA <fperezmaurera@gmail.com>"]
+authors = ["Fernando B. PÉREZ MAURERA <fperezmaurera@gmail.com>"]
 readme = "README.md"
 packages = [{ include = "impressions_datasets" }, { include = "impressions_datasets/py.typed" }]
 
